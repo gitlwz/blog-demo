@@ -2,16 +2,15 @@ enum Status {
     OFFLINE = 1,
     ONLINE,
     DELETED
-  }
-  
-  console.log(Status.OFFLINE, Status[0]);
-  
+}
+console.log(Status.OFFLINE, Status[0]);
+
   // const Status = {
   //   OFFLINE: 0,
   //   ONLINE: 1,
   //   DELETED: 2
   // }
-  
+
   // function getResult(status) {
   //   if (status === Status.OFFLINE) {
   //     return 'offline';
@@ -22,7 +21,6 @@ enum Status {
   //   }
   //   return 'error';
   // }
-  
+
   // const result = getResult(1);
   // console.log(result);
-  
