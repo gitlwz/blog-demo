@@ -1,4 +1,4 @@
-# Reaact 路由之 HashRoute 实现
+# React 路由之 HashRoute 实现
 
 ## HashRouter
 
@@ -7,7 +7,7 @@ HashRouter只是一个容器, 并没有DOm 结构,它渲染的就是它的子组
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, Route, Switch, Link, Redirect,withRouter } from 'react-router-dom'
+import { HashRouter, Route, Switch, Link, Redirect,WithRouter } from 'react-router-dom'
 //import { HashRouter, Route, Link, Switch, Redirect } from './react-router-dom'
 import App from './App';
 import Home from './Home'
